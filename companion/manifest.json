@@ -1,0 +1,37 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "docfila-timedeck",
+	"name": "docfila-timedeck",
+	"shortname": "timedeck",
+	"description": "Control DocFila TimeDeck stage timers: transport, time changes, messages, blackout and screens, with live time and status on your buttons.",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-docfila-timedeck.git",
+	"bugs": "https://github.com/bitfocus/companion-module-docfila-timedeck/issues",
+	"maintainers": [
+		{
+			"name": "NotaNovice UG (haftungsbeschränkt) / DocFila",
+			"email": "admin@notanovice.com"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "DocFila",
+	"products": [
+		"TimeDeck"
+	],
+	"keywords": [
+		"timer",
+		"countdown",
+		"stage timer",
+		"clock",
+		"speaker timer",
+		"web"
+	]
+}

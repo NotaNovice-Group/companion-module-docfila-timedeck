@@ -1,0 +1,26 @@
+{
+  "name": "docfila-timedeck",
+  "version": "0.1.0",
+  "description": "Bitfocus Companion module for DocFila TimeDeck stage timers.",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --test --test-concurrency=1 \"test/*.test.mjs\"",
+    "check": "for f in *.js lib/*.mjs test/*.mjs; do node --check \"$f\" || exit 1; done",
+    "package": "companion-module-build"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfocus/companion-module-docfila-timedeck.git"
+  },
+  "engines": {
+    "node": "^22.20"
+  },
+  "dependencies": {
+    "@companion-module/base": "~2.2.1"
+  },
+  "devDependencies": {
+    "@companion-module/tools": "^3.2.0"
+  }
+}
